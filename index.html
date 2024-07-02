@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martins - Tech Goals</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="nav-menu">
+          <div class="navbar">
+            <div>
+              <h2 class="logo">Martins</h2>
+            </div>
+            <div class="nav-link">
+              <p data-testid="currentTimeUTC" id="time"></p>
+              <p data-testid="currentDay" id="day"></p>
+              <p data-testid="slackEmail">martinohez@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <h1 class="welcome-text">
+            Hi, I'm
+            <span data-testid="slackDisplayName" class="displayName"
+              >Anonymous</span
+            >!
+          </h1>
+          <p class="banner-title">
+            My Tech Goals for the <span>Next 2 Years</span>
+          </p>
+          <a href="#about">
+            <div class="mouse-button-container">
+              <div class="mouse-button-icon">
+                <div class="mouse-button-text"></div>
+              </div>
+            </div>
+          </a>
+          <div class="lensFlare1 lensFlare"></div>
+          <div class="lensFlare2 lensFlare"></div>
+        </div>
+      </div>
+
+      <div id="about" class="about">
+        <div class="about-container">
+          <div class="about-title">
+            <img
+              src="./images/IMG_7825.jpg"
+              alt="Slack Profile Picture"
+              data-testid="slackProfilePicture"
+              id="slackProfilePicture"
+            />
+            <!-- <p class="hover-text">HNG stage one task</p> -->
+          </div>
+
+          <div class="about-task">
+            <p class="about-header">
+              Below are My Tech Goals for the <span>Next 2 Years</span>
+            </p>
+            <div class="about-list">
+              <p>Become proficient in full-stack development</p>
+              <p>Contribute to Open Source Projects</p>
+              <p>Learn and implement AI and machine learning algorithms</p>
+              <p>Build and deploy mobile applications</p>
+              <p>Gain expertise in cloud computing and DevOps practices</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="first-goal">
+          <div class="first-cont">
+            <p class="hover-text first-cont-title">
+              <i class="fas fa-code"></i> Become proficient in full-stack
+              development
+            </p>
+            <p class="first-cont-p">
+              I aim to master both front-end and back-end development to create
+              comprehensive and robust applications. This includes deepening my
+              knowledge in languages and frameworks such as JavaScript, React,
+              Node.js, and Python.
+            </p>
+          </div>
+        </div>
+
+        <div class="first-goal">
+          <div class="first-cont">
+            <p class="hover-text first-cont-title">
+              <i class="fas fa-users"></i> Contribute to Open Source Projects
+            </p>
+            <p class="first-cont-p">
+              Open-source projects are the backbone of innovation in the tech
+              community. By contributing to these projects, I can collaborate
+              with other developers, learn from their expertise, and give back
+              to the community that has helped me grow.
+            </p>
+          </div>
+        </div>
+
+        <div class="second-goal">
+          <div class="first-cont">
+            <p class="hover-text first-cont-title">
+              <i class="fas fa-laptop-code"></i> Learn and implement AI and
+              machine learning algorithms
+            </p>
+            <p class="first-cont-p">
+              Artificial Intelligence and Machine Learning are transforming
+              industries across the globe. I plan to dive into these
+              technologies, learning the fundamental algorithms and applying
+              them to real-world problems to create intelligent and adaptive
+              applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="second-goal">
+          <div class="first-cont">
+            <p class="hover-text first-cont-title">
+              <i class="fas fa-tablet-alt"></i> Build and deploy mobile
+              applications
+            </p>
+            <p class="first-cont-p">
+              With the increasing reliance on mobile technology, I aim to
+              develop and deploy mobile applications that provide seamless user
+              experiences. I will focus on learning platforms such as Flutter
+              and React Native to create cross-platform applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="second-goal">
+          <div class="first-cont">
+            <p class="hover-text first-cont-title">
+              <i class="fas fa-network-wired"></i> Gain expertise in cloud
+              computing and DevOps practices
+            </p>
+            <p class="first-cont-p">
+              Understanding cloud computing and DevOps is essential for modern
+              software development. I plan to gain certifications in platforms
+              like AWS, Azure, and Google Cloud, and adopt DevOps practices to
+              streamline development and deployment processes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section id="links">
+        <h2>Useful Links</h2>
+        <ul>
+          <li>
+            <a
+              href="https://hng.tech/learn"
+              data-testid="hngLink"
+              target="_blank"
+              >HNG Learn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://keyword.dog"
+              data-testid="keywordLink"
+              target="_blank"
+              >Keyword Dog</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://scrapeanyweb.site"
+              data-testid="scrapeanywebLink"
+              target="_blank"
+              >Scrape Any Web</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          &copy; 2024 My Tech Goals. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
